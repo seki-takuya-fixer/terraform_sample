@@ -1,0 +1,19 @@
+{
+  "firewallRules": [
+    {
+      "name": "rule1",
+      "remoteIp": "172.18.129.128/28"
+    },
+    {
+      "name": "rule2",
+      "remoteIp": "172.18.129.0/27"
+    }
+  ],
+  "registrySettings": [
+    {
+      "key": "Registry::HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\CrashControl",
+      "propertyName": "",
+      "value": "3"
+    }
+  ]
+}

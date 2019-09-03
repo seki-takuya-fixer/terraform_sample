@@ -17,3 +17,15 @@ variable "client_secret" {
   type        = "string"
   description = "Azure ServicePrincipal Client Secret"
 }
+
+variable "name_prefix" {
+  type        = "string"
+  default     = "sample"
+  description = "Resource Name Prefix"
+}
+
+variable "location" {
+  type        = "string"
+  default     = "westus"
+  description = "Resource Location"
+}
